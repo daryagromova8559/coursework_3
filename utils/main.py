@@ -1,4 +1,5 @@
-from utils.utils_operation import load_operations, operation_executed, last_five_operations, parse_operations_data
+from utils.utils_operation import operation_executed, last_five_operations, parse_operations_data
+
 
 def main():
     executed_data = operation_executed("../operations.json")
@@ -11,4 +12,3 @@ def main():
 
 if __name__ == '__main__':
     main()
-
